@@ -1,0 +1,169 @@
+/* Material Theme */
+
+/* Fonts to use on the site */
+@font-face {
+    font-family: "Proxima Nova";
+    src:  local("Proxima Nova Regular"),
+            url(tw-docops/tw-mkdocs/docs/fonts/proxima_nova/ProximaNova-Regular.otf);
+  }
+
+
+:root {
+    --md-text-font-family: "Proxima Nova Regular";
+    --md-code-font-family: "Roboto Mono";
+    --md-primary-fg-color: rgb(131,31,1);
+    --md-accent-fg-color: rgb(190, 65, 65);
+}
+
+
+/* Main Header */
+.md-header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 1, 1);
+}
+
+/* Main background*/
+.md-main {
+    background-color: rgb(250, 247, 241);
+}
+
+/* Headings  h1 */
+.md-typeset h1 {
+ color: rgba(0,0,0,0.54);
+ font-weight: 300;
+/* font-family: Proxima Nova;
+*/}
+/* Headings  h2 */
+.md-typeset h2 {
+    color: rgba(0, 0, 0,0.87);
+/*    font-size: x-large;
+    font-weight: 400;
+    font-family: Proxima Nova;
+*/   }
+
+/* Paragraph */
+p {
+    color: rgb(0, 0, 0);
+}
+
+/* Unsorted list */
+ul {
+    color: rgb(0, 0, 0);
+}
+
+/* Sorted list */
+ol {
+    color: rgb(0, 0, 0);
+}
+
+/* Links 
+The four links states are:
+
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked */
+
+.md-typeset a {
+    color: rgb(131, 31, 1);
+}
+
+.md-typeset a:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+/* Heading of the left menu */
+.md-nav--primary .md-nav__title {
+    color: rgb(0, 0, 0);
+    
+    /*font-size: medium;
+    font-weight: bold;*/
+}
+
+/* Active element of the left menu */
+.md-nav__item md-nav__link--active {
+    color:rgb(0, 0, 0);
+}
+/* Active element of the left menu - Second option */
+:root {
+    --md-primary-fg-color: rgb(131, 31, 1);
+}
+
+/* Element of the left menu */
+.md-nav__link {
+    color:rgb(0, 0, 0);
+}
+
+/* Background of the menus*/
+.md-sidebar__scrollwrap {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Footer */
+.md-footer {
+    background-color: rgb(75, 75, 75);
+}
+
+/* Below Footer */
+.md-footer-meta.md-typeset {
+    background-color: rgba(0, 0, 0, 0.534);
+}
+/* Next and Previous labels */
+.md-footer__direction {
+    color: white;
+}
+/* Name of the following and previous pages */
+.md-ellipsis {
+    color: white;
+}
+
+
+
+
+
+
+/* readthedocs theme */
+.wy-side-nav-search {
+    background-color: black;
+}
+
+.wy-side-nav-search>a {
+    color: red;
+}
+
+/* mkdocs theme*/
+
+.bs-sidebar .nav .nav > li > a {
+    color:black;
+}
+
+
+/* Extra CSS  I added */
+/*Deletes margin around my name*/
+#enrique-sanchez {
+    margin: 0rem;
+}
+
+/*makes the job role smaller*/
+#technical-writer-at-wizeline {
+    margin: 0.25rem 0rem;
+    font-size: 1rem;
+}
+
+/* centralizes photo*/
+p img {
+    margin: 5% 25%;
+}
+/*keeps photo centralized in small displays*/
+@media screen and (max-width: 76.1875em){
+    p img {
+        margin: 0;
+    }
+}
+
+/* buttons configuration*/
+.md-button {
+    width: 31%;
+}
+

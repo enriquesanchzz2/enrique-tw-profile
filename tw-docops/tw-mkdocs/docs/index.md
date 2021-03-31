@@ -1,30 +1,20 @@
-# Index Page
+# Enrique Sánchez
+## Technical Writer at Wizeline
 
-## Wizeline DocOps Template
+## Who is Enrique?
 
-Welcome to the DocOps Template
+Enrique is a Computer Systems Engineer by [Instituto Tecnológico de Ciudad Guzmán](https://cdguzman.tecnm.mx/pag/) that has worked as a developer for this institution and the [Universidad de Guadalajara CUSur campus](http://www.cusur.udg.mx/es/). He also has five years of experience as an EFL (English as Foreign Language) Teacher for private institutes, specialized in upper-level students and English for Business. 
+An avid reader and passionate about technology and art, Enrique spends most of his free time reading and learning about new tools and skills to help him achieve his goals. 
 
-## Adding Information to the Page
+![image](images/enrique.png)
 
-Use Markdown to add information to the pages of your site.
+## More about Enrique?
+### My Work
+[Technical Skills](techskills.md){ .md-button .md-button--primary }
+[Soft Skills](softskills.md){ .md-button .md-button--primary }
+[Achievements](achievements.md){ .md-button .md-button--primary }
 
-For example, here is a list:
-
-1.  Item 1
-2.  Item 2
-3.  Item 3
-
-Here is another list:
-
-* Another item
-* Another item
-
-## Adding a New Page
-
-Add new pages to your site doing the following:
-
-1. Create a _.md_ file to the **docs** folder.
-2. Open the **mkdocs.yml** file.
-3. Add the title of the page and the name of the _.md_ file you created under **nav:**.
-
-To learn more about how to write your documents using MkDocs, refer to the official page [Writing your docs](https://www.mkdocs.org/user-guide/writing-your-docs/).
+### My Life
+[Biography](about.md){ .md-button .md-button--primary }
+[Hobbies](hobbies.md){ .md-button .md-button--primary }
+[Abilities](abilities.md){ .md-button .md-button--primary }

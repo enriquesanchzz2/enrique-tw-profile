@@ -1,11 +1,20 @@
-site_name: Wizeline MkDocs Template
+markdown_extensions:
+  - attr_list
+site_name: Enrique Sánchez
 nav:
   - Home: index.md
-  - About: about.md
+  - My Work:
+    - Technical Skills: techskills.md
+    - Soft Skills: softskills.md
+    - Achievements: achievements.md
+  - My Life:
+    - Biography: about.md
+    - Hobbies: hobbies.md
+    - Abilities: abilities.md
 
 theme:
   name: material
-  palette:
-    primary: black
-    accent: indigo
-  logo: images/wizeline_isotype.png
+  logo: images/logo.png
+
+extra_css: 
+  - css/extra.css
