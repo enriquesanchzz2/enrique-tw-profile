@@ -10,11 +10,10 @@ An avid reader and passionate about technology and art, Enrique spends most of h
 
 ## More about Enrique?
 ### My Work
-[Technical Skills](techskills.md){ .md-button .md-button--primary }
+[Tech Skills](techskills.md){ .md-button .md-button--primary }
 [Soft Skills](softskills.md){ .md-button .md-button--primary }
-[Achievements](achievements.md){ .md-button .md-button--primary }
+[Past Work](pastwork.md){ .md-button .md-button--primary }
 
 ### My Life
-[Biography](about.md){ .md-button .md-button--primary }
 [Hobbies](hobbies.md){ .md-button .md-button--primary }
-[Abilities](abilities.md){ .md-button .md-button--primary }
+

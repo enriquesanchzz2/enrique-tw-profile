@@ -148,7 +148,7 @@ a:active - a link the moment it is clicked */
 /*makes the job role smaller*/
 #technical-writer-at-wizeline {
     margin: 0.25rem 0rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 /* centralizes photo*/
@@ -167,3 +167,70 @@ p img {
     width: 31%;
 }
 
+/*keeps buttons consistent in small displays*/
+@media screen and (max-width: 750px){
+    .md-button {
+        width: 100%;
+        margin: 0.25rem 0;
+        flex-wrap: wrap;
+        display: block;
+    }
+}
+
+/* logo size */
+a.md-header__button.md-logo {
+    padding: 0;
+}
+
+.md-header__button.md-logo img {
+    height: 2rem;
+    width:  2rem;
+}
+
+/*font sizes*/
+p, ul{
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.md-typeset h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0rem
+}
+
+.md-typeset h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0 0 0;
+}
+
+td, th {
+    font-size: 1rem;
+}
+
+.md-nav__title{
+    font-size: 1rem;
+}
+
+/*font sizes for small displays*/
+@media screen and (max-width: 750px){
+    p, ul{
+        font-size: 0.75rem;
+        margin: 0 0 1rem 0;
+    }
+    
+    .md-typeset h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0rem
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.5rem;
+        margin: 1.5rem 0 0 0;
+    }
+
+    td, th {
+        font-size: 0.75rem;
+    }
+}
