@@ -6,15 +6,15 @@ nav:
   - My Work:
     - Technical Skills: techskills.md
     - Soft Skills: softskills.md
-    - Achievements: achievements.md
+    - Past Work: pastwork.md
   - My Life:
-    - Biography: about.md
     - Hobbies: hobbies.md
-    - Abilities: abilities.md
+
 
 theme:
   name: material
-  logo: images/logo.png
+  logo: images/ES-3.png
+  favicon: images/ES-3.png
 
 extra_css: 
   - css/extra.css
