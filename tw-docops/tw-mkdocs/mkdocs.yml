@@ -1,0 +1,20 @@
+markdown_extensions:
+  - attr_list
+site_name: Enrique Sánchez
+nav:
+  - Home: index.md
+  - My Work:
+    - Technical Skills: techskills.md
+    - Soft Skills: softskills.md
+    - Past Work: pastwork.md
+  - My Life:
+    - Hobbies: hobbies.md
+
+
+theme:
+  name: material
+  logo: images/ES-3.png
+  favicon: images/ES-3.png
+
+extra_css: 
+  - css/extra.css
